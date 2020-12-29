@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Josefin Sans", sans-serif;
+  background: url("./bg-mobile-dark.jpg") no-repeat;
+  background-size: cover;
+  background-color: hsl(235, 21%, 11%);
+}
+
+@media (min-width: 768px) {
+  body {
+    background: url("./bg-desktop-dark.jpg") no-repeat;
+    background-color: hsl(235, 21%, 11%);
+    font-size: 2rem;
+    background-size: cover;
+  }
+}
